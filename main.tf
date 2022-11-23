@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "testBucketLK"
+  bucket = "test-bucket-lk-from-github"
 
   tags = {
     Name = var.s3_name
