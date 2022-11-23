@@ -6,7 +6,7 @@ on:
       s3-bucket-name:
         description: Bucket name
         required: true
-        default: 'TestBucketLK'
+        default: 'testBucketLK2'
         type: string
 jobs:
   provision-s3-bucket:
